@@ -1,5 +1,5 @@
 public class SensorDataProcessor {
-// Senson data and limits\\\\\
+// Senson data and limits\
 public double[][][] data;
 public double[][] limit;
 // constructor
@@ -16,6 +16,7 @@ val += array[i];
 }
 return val / array.length;
 }
+
 // calculate data
 public void calculate(double d) {
 int i, j, k = 0;

@@ -1,13 +1,10 @@
 public
 class SensorDataProcessor {
   // Sensonr data and limits.
- public
-  double[][][]  sensorData;  //change all variables name from data to sensorData to make it clear and easy to detect
- public
-  double[][] limit;
+ public double[][][]  sensorData;  //change all variables name from data to sensorData to make it clear and easy to detect
+ public double[][] limit;
   // constructor
- public
-  DataProcessor(double[][][]  sensorData, double[][] limit) {
+ public DataProcessor(double[][][]  sensorData, double[][] limit) {
     this. =  sensorData;
     this.limit = limit;
   }
@@ -17,11 +14,10 @@ class SensorDataProcessor {
         for (double sum = 0 ;sum< array.length; sum++) {//change i to sum to maeningful , add sum inside for loop 
             value += array[sum];
         }
-        return value / array.length;
-    }
+        return value / array.length; 
+        }
   // calculate data
- public
-  void calculate(double divisor) { // since d will be a divisor, it will be meaningful to name it as such {divisor} (ahmed)
+ public void calculate(double divisor) { // since d will be a divisor, it will be meaningful to name it as such {divisor} (ahmed)
     // initialize each variable {i,j,k} on a separate line (ahmed)
     int i = 0;
     int j = 0;
